@@ -13,7 +13,7 @@ function ProjectDisplay() {
             <h1>
                 {project.name}
             </h1>
-            <img src={project.image}/>
+            <a src = {project.link}><img src={project.image}/></a>
             <p>
                 <b> Skills:</b>{project.skills}
             </p>
