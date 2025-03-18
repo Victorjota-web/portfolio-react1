@@ -4,20 +4,22 @@ import { ProjectList } from '../helpers/ProjectList'
 import GitHubIcon from '@mui/icons-material/GitHub'
 import "../styles/ProjectDisplay.css"
 
-
 function ProjectDisplay() {
     const { id } = useParams()
     const project = ProjectList[id]
     return (
         <div className='project'>
-            <h1>
-                {project.name}
-            </h1>
-            <a src = {project.link}><img src={project.image}/></a>
+            <h1>{project.name}</h1>
+            <a href={project.link} target="_blank" rel="noopener noreferrer">
+                <img src={project.image} alt={project.name} />
+            </a>
             <p>
-                <b> Skills:</b>{project.skills}
+                <b>Skills:</b> {project.skills}
             </p>
-            <GitHubIcon />
+            <p>
+                <b>Description:</b> {project.description}
+            </p>
+            <a href='https://github.com/Victorjota-web' target="_blank" rel="noopener noreferrer" ><GitHubIcon /></a>
         </div>
     )
 }
