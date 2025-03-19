@@ -19,7 +19,7 @@ export const ProjectList = [
     },
     {
         name: "Website",
-        image: proj2,
+        image: img1,
         skills: "ReactJS NodeJS",
         link: "",
         description: "."
