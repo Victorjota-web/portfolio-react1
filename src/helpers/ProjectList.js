@@ -1,5 +1,5 @@
 import img1 from "../assets/img1.jpeg"
-import proj1 from "../assets/projeto1.jpg"
+
 import proj2 from "../assets/projeto2.jpg"
 
 export const ProjectList = [
@@ -20,7 +20,7 @@ export const ProjectList = [
     {
         name: "Wheater Website",
         image: img1,
-        skills: "ReactJS NodeJS",
+        skills: "ReactJS ",
         link: "",
         description: "A simple and responsive weather forecasting website built with React, leveraging APIs to provide real-time weather data. It allows users to easily check the weather conditions, including temperature, humidity, and forecasts for multiple locations, all in an intuitive and user-friendly interface."
     }
