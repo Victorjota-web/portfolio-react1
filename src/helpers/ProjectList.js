@@ -5,9 +5,9 @@ import proj2 from "../assets/projeto2.jpg"
 export const ProjectList = [
     {
         name: "Login Screen",
-        image: proj1,
+        image: img1,
         skills: "MongoDB, ExpressJS, Node",
-        link: "https://frontend-login-e2us.vercel.app",
+        link: "",
         description: "This simple project implements a login screen using MongoDB, ExpressJS, and Node. It provides secure authentication with access to a backend API, which interacts directly with the MongoDB database to store and retrieve user information efficiently."
     },
     {
