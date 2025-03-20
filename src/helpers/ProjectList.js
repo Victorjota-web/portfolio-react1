@@ -18,10 +18,10 @@ export const ProjectList = [
         description: "This is a responsive pizza ordering website built with React, featuring sections like Home, Menu, About, and Contact. It doesn't integrate with a backend but serves as a solid project for practicing React Hooks and other core React concepts."
     },
     {
-        name: "Website",
+        name: "Wheater Website",
         image: img1,
         skills: "ReactJS NodeJS",
         link: "",
-        description: "."
+        description: "A simple and responsive weather forecasting website built with React, leveraging APIs to provide real-time weather data. It allows users to easily check the weather conditions, including temperature, humidity, and forecasts for multiple locations, all in an intuitive and user-friendly interface."
     }
 ]
