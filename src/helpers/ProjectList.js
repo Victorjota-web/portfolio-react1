@@ -4,7 +4,7 @@ import proj2 from "../assets/projeto2.jpg"
 
 export const ProjectList = [
     {
-        name: "Login Screen",
+        name: "Expense Tracker",
         image: proj3,
         skills: "ReactJS, MongoDB, ExpressJS, Node",
         link: "https://expense-tracker-6g8z.onrender.com",
