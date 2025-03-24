@@ -1,14 +1,14 @@
 import img1 from "../assets/img1.jpeg"
-
+import proj3 from "../assets/projeto3.jpg"
 import proj2 from "../assets/projeto2.jpg"
 
 export const ProjectList = [
     {
         name: "Login Screen",
-        image: img1,
-        skills: "MongoDB, ExpressJS, Node",
-       
-        description: "This simple project implements a login screen using MongoDB, ExpressJS, and Node. It provides secure authentication with access to a backend API, which interacts directly with the MongoDB database to store and retrieve user information efficiently."
+        image: proj3,
+        skills: "ReactJS, MongoDB, ExpressJS, Node",
+        link: "https://expense-tracker-6g8z.onrender.com",
+        description: "Expense-Tracker is a well-structured application built with React, MongoDB, Node.js, and Express. It allows users to efficiently track and manage their expenses, providing a seamless experience for budgeting and financial tracking."
     },
     {
         name: "Pizza Website",
