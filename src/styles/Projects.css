@@ -64,17 +64,17 @@
       grid-template-columns: 1fr; 
   }
   .projectItem {
-      width: 40%;
+      width: 35%;
       height: auto;
   }
 }
 
 @media only screen and (max-width: 600px) {
   .projects .projectTitle {
-      font-size: 40px; 
+      font-size: 35px; 
   }
 
   .projectItem h1 {
-      font-size: 20px; 
+      font-size: 17px; 
   }
 }
