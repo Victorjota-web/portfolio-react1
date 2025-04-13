@@ -5,7 +5,6 @@ This is my personal portfolio, built to showcase what I love to build.
 Simple, clean and straight to the point 💡
 
 ## ✨ Features
-- 👤 About me section
 - 🧪 Project gallery
 - 📬 Contact info & social links
 - 💻 Responsive design
